@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+authors = ["DchanSaito"]
+
+[dependencies]
+mysql = "9.0.1"
+libc = "0.2.0"
+
+[lib]
+name = "csv"
+crate-type = ["dylib"]

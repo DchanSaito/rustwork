@@ -1,0 +1,2 @@
+class CsvTest < ApplicationRecord
+end
