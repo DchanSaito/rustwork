@@ -1,0 +1,11 @@
+[package]
+name = "ruby"
+version = "0.1.0"
+authors = ["DchanSaito"]
+
+[dependencies]
+libc = "0.2.0"
+
+[lib]
+name = "lcs"
+crate-type = ["dylib"]
